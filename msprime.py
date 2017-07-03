@@ -223,6 +223,7 @@ print('')
 
 
 
+# Write the mutations in a text format
 with open("mutations.txt", "w") as mutations_file:
     tree_sequence.write_mutations(mutations_file, header = True)
 
